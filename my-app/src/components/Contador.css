@@ -1,0 +1,46 @@
+.Container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.Container h1{
+    font-size: 70px;
+    color:#58D68D ;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 5px #58D68D;
+}
+
+h2{
+    font-size: 80px;
+    margin: 0;
+}
+
+.botao{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao button {
+    border: solid 5px #A6ACAF;
+    color: #A6ACAF;
+    font-size: 25px;
+    margin: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #222;
+    outline: none;
+    cursor: pointer;
+}
+
